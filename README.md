@@ -16,5 +16,5 @@ After every operation(add/edit/delete) i am refreshing(reloading) the products l
 3. Required Validations: 10 min.
 
 
-<!--  How to run (command)  -->
+/*------use below command to run the application-------*/
 npm start
