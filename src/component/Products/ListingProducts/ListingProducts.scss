@@ -1,0 +1,26 @@
+.products_container{
+	overflow-x: auto;
+	clear: both;
+	.table{
+		text-align: left;
+		min-width: 1000px;
+		width: 100%;
+		margin-top: 20px;
+		thead{
+			font-weight: 600;
+		}
+		tbody > tr > td:nth-child(1),td:nth-child(2){
+			max-width: 300px;
+		}
+		tbody > tr >td:nth-child(2){
+    		white-space: nowrap;
+    		overflow: hidden;
+    		text-overflow: ellipsis;
+		}
+		.actionBtn{
+			padding:5px;
+			margin-right: 10px;
+			font-size: 14px;
+		}
+	}
+}
